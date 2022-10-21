@@ -3,3 +3,8 @@
     color: var(--secondary);
     padding: 2rem 0;
 }
+
+.navbar h2 {
+    font-size: 2.4rem;
+    padding-left: 2rem;
+}

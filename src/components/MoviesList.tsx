@@ -32,7 +32,7 @@ export default function MoviesList() {
   }, []);
   return (
     <section>
-      <div className="d-flex">
+      <div className="d-flex search">
         <SearchBar handleChange={handleChangeSearchBar} />
         <SearchGender handleChange={handleChangeGender} />
       </div>

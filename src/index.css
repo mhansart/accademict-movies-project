@@ -47,12 +47,26 @@ main {
   flex-direction: column;
 }
 
+.btn-primary {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+
 h1 {
   padding-bottom: 2rem;
 }
 
-input:focus {
+.form-control:focus,
+.form-select:focus {
   border: none;
-  box-shadow: none;
+  box-shadow: none !important;
   outline: none;
+}
+
+select {
+  margin-left: 0.5rem;
+}
+
+.search {
+  padding: 0 0.5rem;
 }
