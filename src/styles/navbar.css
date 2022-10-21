@@ -1,0 +1,5 @@
+.navbar {
+    background-color: var(--primary);
+    color: var(--secondary);
+    padding: 2rem 0;
+}

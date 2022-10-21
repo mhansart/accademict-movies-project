@@ -1,0 +1,38 @@
+.movies-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+}
+
+.movies-list .movie-item {
+    width: 33.33%;
+}
+
+.card.movie-item {
+    padding: .5rem;
+    background-color: transparent;
+    border: none;
+    color: var(--bg);
+    transition: transform .5s;
+}
+
+.card {
+    border: none;
+}
+
+.card.movie-item:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+@media (max-width: 992px) {
+    .movies-list .movie-item {
+        width: 50%;
+    }
+}
+
+@media (max-width: 576px) {
+    .movies-list .movie-item {
+        width: 100%;
+    }
+}
