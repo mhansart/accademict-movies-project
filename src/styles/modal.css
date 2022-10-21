@@ -1,3 +1,69 @@
 .modal {
     background-color: rgba(0, 0, 0, .7);
 }
+
+.actor-picture-modal {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 .5rem;
+}
+
+.actor-picture-modal-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 2rem;
+}
+
+.actor-picture-modal img {
+    width: 100%;
+    height: auto;
+}
+
+.modal-title {
+    font-size: 2.4rem;
+    font-weight: 700;
+    text-align: left;
+}
+
+.modal-title .subtitle {
+    text-align: left;
+    font-size: 1.8rem;
+    font-size: 300;
+}
+
+.description {
+    font-size: 1.4rem;
+    padding: 1rem 2rem;
+}
+
+.img-movie-container {
+    background-color: var(--primary);
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-movie {
+    height: 300px;
+    width: auto;
+    border: 2px solid var(--primary);
+}
+
+.modal-body {
+    padding: 0;
+}
+
+.information {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    margin-top: 1rem;
+    font-weight: 700;
+}

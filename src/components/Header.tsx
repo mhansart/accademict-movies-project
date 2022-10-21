@@ -3,7 +3,9 @@ export default function Header() {
     <header>
       <nav className="navbar navbar-expand-lg">
         <div className="container-fluid">
-          <h2 className="navbar-brand text-light">Navbar</h2>
+          <h2 className="navbar-brand text-light">
+            <i className="bi bi-film"></i> Movies App !
+          </h2>
           {/* <button
             className="navbar-toggler"
             type="button"

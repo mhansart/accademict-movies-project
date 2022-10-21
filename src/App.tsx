@@ -29,7 +29,6 @@ function App() {
         <Header />
         <main>
           <div className="container">
-            <h1>Movies app!</h1>
             <MoviesList />
             {modal.modal && <MovieModal />}
           </div>

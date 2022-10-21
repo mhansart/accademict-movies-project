@@ -1,3 +1,5 @@
 {
-  "URL": "https://moviedatabaseapi.azurewebsites.net/api/"
+  "URL": "https://moviedatabaseapi.azurewebsites.net/api/",
+  "IMAGE_URL": "https://moviedatabaseblob.blob.core.windows.net/covers/",
+  "ACTOR_URL": "https://moviedatabaseblob.blob.core.windows.net/actors/"
 }
